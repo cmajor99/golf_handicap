@@ -1,17 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-html {
+} html {
   background-size:cover;
-}
-
-body {
+} body {
   background-color: green;
-}
-
-h1 {
+} h1 {
   margin: 0 auto;
 }
 
@@ -32,7 +26,8 @@ h1 {
 
 .Databasebox,
 .Handicapbox,
-.Scorebox {
+.Scorebox,
+.Form {
   max-width: 500px;
   height: 400px;
   overflow: scroll;
@@ -64,5 +59,5 @@ h1 {
   width: 100%;
   height: 10px;
   margin-top: -40px;
-  padding-bottom: 10px;
+  padding: 0 0 10px 0;
 }
