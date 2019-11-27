@@ -3,12 +3,16 @@
   padding: 0;
 }
 
-.h {
-  margin: 0 auto;
-}
-
 html {
   background-size:cover;
+}
+
+body {
+  background-color: green;
+}
+
+h1 {
+  margin: 0 auto;
 }
 
 .golfproject {
@@ -26,11 +30,10 @@ html {
   margin: 0;
 }
 
-body {
-  background-color: green;
-}
-.Databasebox {
-  width: 500px;
+.Databasebox,
+.Handicapbox,
+.Scorebox {
+  max-width: 500px;
   height: 400px;
   overflow: scroll;
   background-color: gray;
@@ -43,34 +46,13 @@ body {
   border: solid 6px black;
   text-align: center;
 }
+
 .Handicapbox {
-  width: 500px;
-  height: 400px;
-  overflow: scroll;
   background-color: orange;
-  margin: 25px 0 25px 0; 
-  float: left;
-  border-radius: 25px;
-  margin-left: 500px;
-  text-indent: 20px;
-  color: black;
-  border: solid 6px black;
-  text-align: center;
-}
-.Scorebox {
-  width: 500px;
-  height: 400px;
-  overflow: scroll;
+} .Scorebox {
   background-color: lightgoldenrodyellow;
-  margin: 25px 0 25px 0; 
-  float: left;
-  border-radius: 25px;
-  margin-left: 500px;
-  text-indent: 20px;
-  color: black;
-  border: solid 6px black;
-  text-align: center;
 }
+
 .footergolf {
   background-color: black;
   text-align: center;
