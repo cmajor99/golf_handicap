@@ -1,11 +1,4 @@
 # this is currently just a simple layout for the form
 import django
 import golfproject.html
-
-<html>
-    <form action="/team_name_url/" method="post">
-        <label for="handicap">Enter Handicap: </label>
-        <input id="handicap" type="text" name="name_field" value="">
-        <input type="submit" value="OK">
-    </form>
-</html>
+# pass in value of normal form to django which interfaces with python to send the values to the database.
