@@ -24,22 +24,24 @@
   margin: 0;
 }
 
+
 .Databasebox,
 .Handicapbox,
-.Scorebox,
-.Form {
-  max-width: 500px;
-  height: 400px;
+.Scorebox {
+  max-width: 300px;
+  min-width: 300px;
+  height: 250px;
   overflow: scroll;
   background-color: gray;
   margin: 25px 0 25px 0; 
-  float: left;
   border-radius: 25px;
-  margin-left: 500px;
+  margin-left: 200px;
   text-indent: 20px;
   color: black;
   border: solid 6px black;
   text-align: center;
+  margin-top: 100px;
+  display: inline-block;
 }
 
 .Handicapbox {
@@ -61,3 +63,78 @@
   margin-top: -40px;
   padding: 0 0 10px 0;
 }
+
+.Playerbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    height: 75px;
+    margin-left: 50px;
+    margin-top: 90px;
+    border: solid 6px black;
+    font-size: 11px;
+    display: inline-block;
+
+  }
+  
+  .Coursebtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    cursor: pointer;
+    width: 200px;
+    height: 75px;
+    margin-left: 300px;
+    margin-top: 1px;
+    border: solid 6px black;
+    font-size: 11px;
+    display: inline-block;
+
+  }
+  .Teesbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    height: 75px;
+    margin-left: 300px;
+    margin-top: 1px;
+    border: solid 6px black;
+    font-size: 11px;
+    display: inline-block;
+  }
+.scorebtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+    height: 75px;
+    margin-left: 300px;
+    margin-top: 1px;
+    border: solid 6px black;
+    font-size: 11px;
+    display: inline-block;
+}
+  
+.button {
+    background-color: #3498DB;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 90%;
+    margin-top: 30px;
+    cursor: pointer;
+    display: inline-block;
+    border: solid 6px black;
+
+  }
