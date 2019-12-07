@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Golf With The Lads</title>
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+    <body>
+        <header>
+            <div class = "headergolf">
+                <h1>GOLF WITH THE LADS</h1>
+            </div>
+        </header>
+ 
+    <div class ="Playerbtn" style="overflow:auto;">
+            <h1>Choose a Player!</h1>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <form action="{% static 'php/choices.php' %}" method=post>
+            <select name="Players">
+                <option value="player1">Cory</option>
+                <option value="player2">Joel</option>
+                <option value="player3">Joey</option>
+                <option value="player4">Robert</option>
+                <option value="player5">Ryan</option>
+
+            </select>
+            <input type=submit>
+            </form> 
+            </div>
+    <div class ="Coursebtn" style="overflow:auto;">
+            <h1>Choose the course!</h1>
+            <form action="{% static 'php/choices.php' %}" method=post>
+                <select name='courses'>
+                    <option value="course1">Burlington GC</option>
+                    <option value="course2">Casselview GC</option>
+                    <option value="course3">Glen Eagle GC</option>
+                    <option value="course4">Hunt Club North GC</option>
+                    <option value="course4">Lambton GC</option>
+
+                </select>
+                <input type=submit>
+                </form>
+
+                 </div>
+    <div class ="Teesbtn" style="overflow:auto;">
+             <h1>Choose your Tee!</h1>
+             <form action="{% static 'php/choices.php' %}" method=post>
+                <select name='tee'>
+                    <option value="tee1">Blue</option>
+                    <option value="tee2">Red</option>
+                    <option value="tee3">White</option>
+                    <option value="tee4">Yellow</option>
+                </select>
+                <input type=submit>
+                </form> 
+         
+            </div>
+         <div class = "scorebtn" style= "overflow:auto;">
+                <h1>Score!</h1>
+                <form action="{% static 'php/choices.php' %}" method=post>
+                <input id="myscore" value=>
+                <input type=submit>
+                </form>
+            </div>
+        
+            <div class= "button" style= "overflow:auto;">
+        <button>Enter</button>
+       
+            </div>
+        <div class="Databasebox" style ="overflow:auto;">
+            <h1>Player/course</h1>
+        </div>
+        <div class="Handicapbox" style ="overflow:auto;">
+            <h1>Show results</h1>
+        </div>
+        <div class="Scorebox" style ="overflow:auto;">
+            <h1>Index</h1>
+        </div>
+       
+    </body>
+
+    <div class="footergolf">
+        <footer>
+            <h4>2019 All Rights Reserved</h4>
+        </footer>
+    </div>
+</html>
