@@ -5,6 +5,7 @@
     <head>
         <title>Golf With The Lads</title>
         <link href="{% static 'css/styles.css' %}" rel="stylesheet" type="text/css">
+        <script src="{% static 'js/scripts.js' %}"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
     </head>
@@ -19,21 +20,19 @@
     <div class ="Playerbtn" style="overflow:auto;">
             <h1>Choose a Player!</h1>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-            <form action="{% static 'php/choices.php' %}" method=post>
-            <select name="Players">
+            <form method=post>
+            <select name="players">
                 <option value="player1">Cory</option>
                 <option value="player2">Joel</option>
                 <option value="player3">Joey</option>
                 <option value="player4">Robert</option>
                 <option value="player5">Ryan</option>
-
             </select>
-            <input type=submit>
             </form> 
             </div>
     <div class ="Coursebtn" style="overflow:auto;">
             <h1>Choose the course!</h1>
-            <form action="{% static 'php/choices.php' %}" method=post>
+            <form method=post>
                 <select name='courses'>
                     <option value="course1">Burlington GC</option>
                     <option value="course2">Casselview GC</option>
@@ -42,33 +41,39 @@
                     <option value="course4">Lambton GC</option>
 
                 </select>
-                <input type=submit>
                 </form>
+                <script type="text/javascript">
+                
+                
+                </script>
+
 
                  </div>
     <div class ="Teesbtn" style="overflow:auto;">
              <h1>Choose your Tee!</h1>
-             <form action="{% static 'php/choices.php' %}" method=post>
-                <select name='tee'>
+             <form method=post>
+                <select name='tees'>
                     <option value="tee1">Blue</option>
                     <option value="tee2">Red</option>
                     <option value="tee3">White</option>
                     <option value="tee4">Yellow</option>
                 </select>
-                <input type=submit>
                 </form> 
          
             </div>
          <div class = "scorebtn" style= "overflow:auto;">
                 <h1>Score!</h1>
-                <form action="{% static 'php/choices.php' %}" method=post>
+                <form >
+                <form name="scores">
                 <input id="myscore" value=>
-                <input type=submit>
-                </form>
+         </form>> 
+         
+
             </div>
         
             <div class= "button" style= "overflow:auto;">
-        <button>Enter</button>
+        <button onClick="handicap()">Enter</button>
+       
        
             </div>
         <div class="Databasebox" style ="overflow:auto;">
