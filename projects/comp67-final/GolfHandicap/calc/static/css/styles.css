@@ -1,139 +1,142 @@
 * {
-    margin: 0;
-    padding: 0;
-  } html {
-    background-size:cover;
-  } body {
-    background-color: green;
-  } h1 {
-    margin: 0 auto;
-  }
-  
-  .golfproject {
-    overflow: scroll;
-    height: 1000px;
-    background-size: cover;
-  }
-  
-  .headergolf {
-    background-color: black;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-    margin: 0;
-  }
-  
-  
-  .Databasebox,
-  .Handicapbox,
-  .Scorebox {
-    max-width: 300px;
-    min-width: 300px;
-    height: 250px;
-    overflow: scroll;
-    background-color: gray;
-    margin: 25px 0 25px 0; 
-    border-radius: 25px;
-    margin-left: 200px;
-    text-indent: 20px;
-    color: black;
-    border: solid 6px black;
-    text-align: center;
-    margin-top: 100px;
-    display: inline-block;
-  }
-  
-  .Handicapbox {
-    background-color: orange;
-  } .Scorebox {
-    background-color: lightgoldenrodyellow;
-  }
-  
-  .footergolf {
-    background-color: black;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 10px;
-    margin-top: -40px;
-    padding: 0 0 10px 0;
-  }
-  
-  .Playerbtn {
-      background-color: #3498DB;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      cursor: pointer;
-      width: 150px;
-      height: 75px;
-      margin-left: 50px;
-      margin-top: 90px;
-      border: solid 6px black;
-      font-size: 11px;
-      display: inline-block;
-  
-    }
-    
-    .Coursebtn {
-      background-color: #3498DB;
-      color: white;
-      padding: 16px;
-      cursor: pointer;
-      width: 200px;
-      height: 75px;
-      margin-left: 300px;
-      margin-top: 1px;
-      border: solid 6px black;
-      font-size: 11px;
-      display: inline-block;
-  
-    }
-    .Teesbtn {
-      background-color: #3498DB;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      cursor: pointer;
-      width: 150px;
-      height: 75px;
-      margin-left: 300px;
-      margin-top: 1px;
-      border: solid 6px black;
-      font-size: 11px;
-      display: inline-block;
-    }
-  .scorebtn {
-      background-color: #3498DB;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      cursor: pointer;
-      width: 200px;
-      height: 75px;
-      margin-left: 300px;
-      margin-top: 1px;
-      border: solid 6px black;
-      font-size: 11px;
-      display: inline-block;
-  }
-    
-  .button {
-      background-color: #3498DB;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin-left: 90%;
-      margin-top: 30px;
-      cursor: pointer;
-      display: inline-block;
-      border: solid 6px black;
-    }
+  margin: 0;
+  padding: 0;
+} html {
+  background-size:cover;
+  scroll-behavior: smooth;
+  text-align: center;
+  overflow: auto;
+} body {
+  background-color: green;
+} h1 {
+  margin: 0 auto;
+}
+
+.golfproject {
+  overflow: scroll;
+  height: 1000px;
+  background-size: cover;
+}
+
+.headergolf {
+  background-color: black;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  margin: 0;
+}
+
+.Databasebox,
+.Handicapbox,
+.Scorebox {
+  max-width: 300px;
+  min-width: 300px;
+  height: 250px;
+  overflow: scroll;
+  background-color: gray;
+  border-radius: 25px;
+  margin: 25px 0 25px 0;
+  margin-left: 200px;
+  color: black;
+  border: solid 6px black;
+  text-align: center;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.Handicapbox {
+  background-color: orange;
+} .Scorebox {
+  background-color: lightgoldenrodyellow;
+}
+
+.footergolf {
+  background-color: black;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  margin-top: -40px;
+  padding: 0 0 10px 0;
+}
+
+.Playerbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  width: 150px;
+  height: 75px;
+  margin-left: 50px;
+  margin-top: 90px;
+  border: solid 6px black;
+  font-size: 11px;
+  display: inline-block;
+}
+
+.Coursebtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  width: 200px;
+  height: 75px;
+  margin-left: 300px;
+  margin-top: 1px;
+  border: solid 6px black;
+  font-size: 11px;
+  display: inline-block;
+
+}
+.Teesbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  width: 150px;
+  height: 75px;
+  margin-left: 300px;
+  margin-top: 1px;
+  border: solid 6px black;
+  font-size: 11px;
+  display: inline-block;
+}
+.scorebtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  width: 200px;
+  height: 75px;
+  margin-left: 300px;
+  margin-top: 1px;
+  border: solid 6px black;
+  font-size: 11px;
+  display: inline-block;
+}
+
+.button {
+  background-color: #3498DB;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 90%;
+  margin-top: 30px;
+  display: inline-block;
+  border: solid 6px black;
+}
+
+select {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
